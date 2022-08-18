@@ -10,9 +10,8 @@ import boto3
 # Get the service resource.
 
 dynamodb = boto3.resource('dynamodb',
-                          aws_access_key_id='AKIAY4GH74X5UGNLXBET',
-                          # aws_secret_access_key='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',
-                          aws_secret_access_key='bfQYitV8fYtPYqQElY3Fn3V6WnHJbG4mEcMdFMhS',
+                          aws_access_key_id='****************',
+                          aws_secret_access_key='******************',
                           )
 
 # dynamodb = boto3.resource('dynamodb')
